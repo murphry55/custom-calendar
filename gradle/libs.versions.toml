@@ -1,0 +1,13 @@
+[versions]
+androidxCore = "1.9.0"
+androidxFragment = "1.5.5"
+androidxCompat = "1.6.0"
+material = "1.7.0"
+kotlin = "1.7.20"
+
+[libraries]
+androidxCore = { module = "androidx.core:core-ktx", version.ref = "androidxCore" }
+androidxFragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidxFragment" }
+androidxCompat = { module = "androidx.appcompat:appcompat", version.ref = "androidxCompat" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+kotlinStd = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
